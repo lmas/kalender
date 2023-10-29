@@ -42,5 +42,6 @@ Validators:
 
 ## TODO
 
+- Fix and verify generated files have CRLF preserved in git
 - Add CI pipeline to generate new calendars every 31 december.
 - Add event descriptions and info links?
