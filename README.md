@@ -39,3 +39,7 @@ Validators:
 
 - https://icalendar.org/validator.html
 - https://icalvalidator.com/index.html
+
+## TODO
+
+- Add CI pipeline to generate new calendars every 31 december.
