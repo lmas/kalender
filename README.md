@@ -43,3 +43,4 @@ Validators:
 ## TODO
 
 - Add CI pipeline to generate new calendars every 31 december.
+- Add event descriptions and info links?
