@@ -5,7 +5,7 @@ POSIX-compatible shell scripts to generate holiday calendars in iCalendar format
 
 ## Status
 
-Currently generated calendar, for 2023:
+Lastest set of calendars for 2024, generated on *2024-01-08*:
 
 - Sweden
 
@@ -40,8 +40,3 @@ Validators:
 - https://icalendar.org/validator.html
 - https://icalvalidator.com/index.html
 
-## TODO
-
-- Fix and verify generated files have CRLF preserved in git
-- Add CI pipeline to generate new calendars every 31 december.
-- Add event descriptions and info links?
