@@ -93,6 +93,15 @@ printevent "$day" "Fars dag"
 day=$(date -v+sun -jf "%Y-%m-%d" +"%Y-%m-%d" "$YEAR-11-27")
 printevent "$day" "Första advent"
 
+day=$(date -v+1d -v+sun -jf "%Y-%m-%d" +"%Y-%m-%d" "$day")
+printevent "$day" "Andra advent"
+
+day=$(date -v+1d -v+sun -jf "%Y-%m-%d" +"%Y-%m-%d" "$day")
+printevent "$day" "Tredje advent"
+
+day=$(date -v+1d -v+sun -jf "%Y-%m-%d" +"%Y-%m-%d" "$day")
+printevent "$day" "Fjärde advent"
+
 printevent "$YEAR-12-13" "Lucia"
 printevent "$winter" "Vintersolståndet"
 printevent "$YEAR-12-24" "Julafton"
